@@ -13,8 +13,10 @@ notifications:
 node_js:
   - 0.10.25
 
-install:
+before_install:
   - phantomjs --version
+
+install:
   - travis_retry npm install --silent
   - npm run-script setup-bower
 
