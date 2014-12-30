@@ -6,7 +6,7 @@
     "start": "grunt",
     "test": "grunt test",
     "setup": "npm install && npm run-script setup-bower",
-    "setup-bower": "cd tests && bower install && cd bower_components/sinon && ./build && cd ../../..",
+    "setup-bower": "cd tests && bower install && cd ..",
     "contributors": "git shortlog -s | cut -c8- | sort -f > CONTRIBUTORS.md"
   },
   "directories": {
