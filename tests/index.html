@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bower_components/mocha/mocha.css">
+
+	<script src="bower_components/mocha/mocha.js"></script>
+	<script src="bower_components/chai/chai.js"></script>
+	<script src="bower_components/sinon/pkg/sinon.js"></script>
+
+  <script>
+    mocha.setup('bdd');
+  </script>
+
+
+
+  <!-- Add a link to the src and tests here -->
+	<script src="../src/XXX.js"></script>
+	<script src="spec/XXX.js"></script>
+
+  <title>{{ PROJECT_NAME }} Unit Tests</title>
+
+</head>
+<body>
+
+  <div id="mocha"></div>
+
+  <script>
+    if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+      mocha.run();
+    }
+  </script>
+
+</body>
+</html>

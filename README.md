@@ -1,17 +1,22 @@
-# Project Name
+# {{ PROJECT_NAME }}
 
-## Purpose
+{{ PROJECT_DESCRIPTION }}
 
-## License
-Mozilla MPL 2.0
+## API:
 
-## Inspiration
-
-## Author
+## Author:
 * Shane Tomlinson
-* @shane_tomlinson
 * shane@shanetomlinson.com
-* set117@yahoo.com
 * stomlinson@mozilla.com
+* set117@yahoo.com
 * https://shanetomlinson.com
+* https://github.com/shane-tomlinson
+* @shane_tomlinson
+
+## Get involved:
+
+## License:
+This software is available under version 2.0 of the MPL:
+
+  https://www.mozilla.org/MPL/
 
