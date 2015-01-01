@@ -1,7 +1,7 @@
 {
-  "name": "PROJECT NAME",
+  "name": "{{ PROJECT NAME }}",
   "version": "0.0.0",
-  "description": "PROJECT DESCRIPTION",
+  "description": "{{ PROJECT DESCRIPTION }}",
   "scripts": {
     "start": "grunt",
     "test": "grunt test",

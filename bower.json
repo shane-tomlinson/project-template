@@ -1,0 +1,22 @@
+{
+  "name": "{{ PROJECT_NAME }}",
+  "version": "0.0.1",
+  "description": "{{ PROJECT_DESCRIPTION }}",
+  "author": "Shane Tomlinson <shane@shanetomlinson.com>",
+  "main": "{{ PROJECT_NAME }}.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+  ],
+  "license": "MPL 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
