@@ -17,6 +17,8 @@
     "type": "git",
     "url": "https://github.com/shane-tomlinson/{{ PROJECT_NAME }}"
   },
+  "homepage": "https://github.com/shane-tomlinson/{{ PROJECT_NAME }}/",
+  "bugs": "https://github.com/shane-tomlinson/{{ PROJECT_NAME }}/issues/",
   "license": "MPL 2.0",
   "devDependencies": {
     "bower": "1.3.12",
